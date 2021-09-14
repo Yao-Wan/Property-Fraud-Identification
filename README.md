@@ -7,7 +7,8 @@ An unsupervised machine learning model in Python
 - Two supervised machine learning model were built to estimate the anomaly score of each record, and a final anomaly score was created to rank the suspicious records.
 
 ## Dataset
-- NYC open-source data
+- New York City government open-source data.
+- Included over 1 million real-world property records in New York City in 2010.
 
 ## Methods
 - Performed exploratory data analysis, then conducted a data quality report.
