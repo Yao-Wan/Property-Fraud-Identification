@@ -10,13 +10,13 @@ An unsupervised machine learning model in Python
 - NYC open-source data
 
 ## Methods
-- Performed exploratory data analysis, then conducted a data quality report
+- Performed exploratory data analysis, then conducted a data quality report.
 - Cleaned data, removed invalid records, and filled in missing values for chosen fields.
-- Created 3 value metrics including value per ft2 for lot area, value per ft2 for building area, and value per ft2 for building volume, and then created 9 new expert variables based on these value variables to help detecting unusual valuations.
+- Created 3 value metrics including value per ft2 for lot area, value per ft2 for building area, and value per ft2 for building volume, and then created 9 new expert variables based on these metrics to help detecting unusual valuations.
 - Reduced dimensionality using Principal Component Analysis (PCA). 
-- Built first score that transformed the Z-scaled principal component into an anomaly score
+- Built the first model that transformed the Z-scaled principal component into an anomaly score.
 - Built the second model that used Keras library to calculate the autoencoder error and the second anomaly score.
-- Combine the results of the two models into a final anomaly score which then be used to rank all the records based on their likelihood of being fraudulent. 
+- Combine the results of the two models into a final anomaly score which then be used to rank all the tax records based on their likelihood of being fraudulent. 
 - Reviewed 10 of the records with high anomaly scores to verify the results.
 
 ## Conclusion
