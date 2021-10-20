@@ -4,7 +4,7 @@ An unsupervised machine learning model in Python
 ## Description
 - This is a group project from the *Fraud Analytics* course at Rady School of Management, UC San Diego.
 - The goal was to identify property tax fraud by detecting unusual records using machine learning.
-- Two supervised machine learning model were built to estimate the anomaly score of each record, and a final anomaly score was created to rank the suspicious records.
+- Two unsupervised machine learning model were built to estimate the anomaly score of each record, and a final anomaly score was created to rank the suspicious records.
 
 ## Dataset
 - New York City government open-source data.
